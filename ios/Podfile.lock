@@ -1,22 +1,28 @@
 PODS:
+  - apple_pay_custom (0.0.1):
+    - Flutter
   - Flutter (1.0.0)
   - pay_ios (0.0.1):
     - Flutter
 
 DEPENDENCIES:
+  - apple_pay_custom (from `.symlinks/plugins/apple_pay_custom/ios`)
   - Flutter (from `Flutter`)
   - pay_ios (from `.symlinks/plugins/pay_ios/ios`)
 
 EXTERNAL SOURCES:
+  apple_pay_custom:
+    :path: ".symlinks/plugins/apple_pay_custom/ios"
   Flutter:
     :path: Flutter
   pay_ios:
     :path: ".symlinks/plugins/pay_ios/ios"
 
 SPEC CHECKSUMS:
+  apple_pay_custom: 6c383fcf291ec362b030c3711a3c6d08b483d9ff
   Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
   pay_ios: 8c7beb9c61d885f3f51b61f75f8793023fc8843a
 
 PODFILE CHECKSUM: ef19549a9bc3046e7bb7d2fab4d021637c0c58a3
 
-COCOAPODS: 1.12.0
+COCOAPODS: 1.12.1
